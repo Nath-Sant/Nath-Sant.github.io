@@ -1,0 +1,62 @@
+/* Estilo da navbar */
+.navbar {
+    background-color: #191D23;
+  }
+
+.custom-nav-text {
+    color: #ffffff !important;
+  }
+  
+.custom-nav-text:hover {
+    color: #ffffff !important;
+  }
+  
+.sobre-section {
+    background: linear-gradient(to bottom, #242f49, #384358);
+    color: white;
+  }
+  
+  /* Imagem redonda, centralizada e com tamanho fixo */
+  .sobre-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid white;
+  }
+
+/* Tamanho e alinhamento dos ícones nos botões */
+.icon-img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+  }
+  
+/* Seção Formação */
+.formacao-section {
+    background-color: #191D23;
+    color: white;
+  }
+
+/* Seção Projetos */
+.projetos-section {
+    background: linear-gradient(to bottom, #242f49, #384358);
+  }
+  
+  /* Cards */
+  .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
